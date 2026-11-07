@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+float calculateAverage(int marks[], int size) {
+    int sum = 0;
+    for (int i = 0; i < size; i++) {
+        sum += marks[i];
+    }
+    return (float)sum / size;
+}
+
+int main() {
+    int numSubjects = 5;
+    int marks[] = {85, 90, 78, 92, 88}; 
+    
+    printf("--- SWYNEX C Fundamentals Mini-Program ---\n");
+    
+    float average = calculateAverage(marks, numSubjects);
+    printf("Average Marks: %.2f\n", average);
+    
+    printf("Result Status: ");
+    if (average >= 90) {
+        printf("Grade A\n");
+    } else if (average >= 75) {
+        printf("Grade B\n");
+    } else {
+        printf("Grade C\n");
+    }
+    
+    return 0;
+}
