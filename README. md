@@ -1,0 +1,13 @@
+# SWYNEX-C-Fundamentals-Mini-Program
+
+This is a simple C program developed as part of the SWYNEX Internship Task 1. It demonstrates core C concepts like variables, loops, arrays, and functions.
+
+## Features
+- Uses arrays to store subject marks.
+- Uses a custom function to calculate the average.
+- Uses conditional statements (if-else) to determine the grade.
+
+## How to Compile and Run
+1. Open your terminal.
+2. Compile using: `gcc main.c -o mini_program`
+3. Run using: `./mini_program` (or `mini_program.exe` on Windows)
